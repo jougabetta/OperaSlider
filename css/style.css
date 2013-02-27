@@ -1,6 +1,7 @@
 /**********************************************************  CUSTOM *******************************************************/
 body { margin:0px; padding:0; font-family:Arial; font-size:100%;}
 .container{width:967px; height:auto;}
+.painel_button{position:absolute; right:20px; bottom:23px;}
 .button{float:left; width:15px; height:15px; border-radius:10px; background:#fff; margin:0 6px; cursor:pointer;}
 .button:nth-child(1):hover{background:#e4dc0d!important;}
 .button:nth-child(2):hover{background:#000!important;}
@@ -9,7 +10,3 @@ body { margin:0px; padding:0; font-family:Arial; font-size:100%;}
 .button:nth-child(5):hover{background:#808182!important;}
 .button:nth-child(6):hover{background:#3399FF!important;}
 /**********************************************************  CUSTOM *******************************************************/
-
-/**********************************************************  OperaSlider Css *******************************************************/
-.painel_button{position:absolute; right:20px; bottom:23px;}
-/**********************************************************  OperaSlider Css *******************************************************/
