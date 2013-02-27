@@ -1,0 +1,9 @@
+OperaSlider
+
+options: 
+	   - visible: number of li visibles. ( OPTIONAL )
+           - pass: number of li(s) that will be slided at once. ( OPTIONAL )
+		
+
+exemple:
+	   - $(".slider").sliderOpera({ visible: 2, pass: 2 });
