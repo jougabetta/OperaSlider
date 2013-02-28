@@ -1,12 +1,13 @@
-$.fn.sliderOpera = function(){
+$.fn.sliderOpera = function(settings){
 
-   arg = $.isPlainObject(arguments[0]) ? arguments[0] : 0;
    o = {
 
-        visible: arg.visible != 0 && arg.visible != "" && arg.visible != undefined ? arg.visible : 1,
-        pass: arg.pass != 0 && arg.pass != "" && arg.pass != undefined ? arg.pass : 1
+        visible: 1,
+        pass: 1
 
    }
+
+   if(settings){ $.extends( o, settings) }
 
    $size=0;
    $slider = this;
