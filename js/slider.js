@@ -7,7 +7,7 @@ $.fn.sliderOpera = function(settings){
 
    }
 
-   if(settings){ $.extends( o, settings) }
+   if(settings){ $.extend( o, settings); }
 
    $size=0;
    $slider = this;
@@ -54,7 +54,7 @@ $.fn.sliderOpera = function(settings){
 
 $(function(){
 
-    $(document).find(".slider").sliderOpera();
+    $(document).find(".slider").sliderOpera({visible:1});
 
 });
 
