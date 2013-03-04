@@ -10,7 +10,6 @@ $.fn.sliderOpera = function(settings){
    }
 
    if(settings){ $.extend( o, settings); }
-
    $size=0;
    $slider = this;
 
@@ -18,6 +17,7 @@ $.fn.sliderOpera = function(settings){
 
    if(o.fade){
 
+        o.visible = 1;
         $slider.find("li").css({ position: "absolute", left: 0, opacity: 0 }).eq(0).css({ opacity: 1, zIndex: 999 });
 
    }else{
@@ -83,7 +83,7 @@ $.fn.sliderOpera = function(settings){
 
 $(function(){
 
-    $(document).find(".slider").sliderOpera();
+    $(document).find(".slider").sliderOpera({fade: true});
 
 });
 
