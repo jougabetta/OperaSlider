@@ -10,3 +10,17 @@ body { margin:0px; padding:0; font-family:Arial; font-size:100%;}
 .button:nth-child(5):hover{background:#808182!important;}
 .button:nth-child(6):hover{background:#3399FF!important;}
 /**********************************************************  CUSTOM *******************************************************/
+
+.nextOpera, .prevOpera{
+	background: url("../imagens/setas.png") no-repeat 0 0;
+	width:81px;
+	height:99px;
+	float:left;
+	cursor:pointer;
+}
+.prevOpera{
+	background-position: 0 0;
+}
+.nextOpera{
+	background-position: -85px 0;
+}
